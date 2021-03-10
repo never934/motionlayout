@@ -23,13 +23,14 @@
         app:motionDebug="SHOW_PATH" >
 
     <ImageView
+            android:id="@+id/background"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@drawable/background"
+            app:srcCompat="@android:color/black"
             android:scaleType="centerCrop"
     />
 
